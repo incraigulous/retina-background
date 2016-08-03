@@ -1,0 +1,27 @@
+{
+  "name": "retina-background",
+  "version": "1.0.0",
+  "description": "Provides an data api for HTML elements for adding retina background images using in-page style blocks.",
+  "main": "RetinaBackground.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/incraigulous/retina-backgrond.git"
+  },
+  "author": "Incraigulous",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/incraigulous/retina-background/issues"
+  },
+  "homepage": "https://github.com/incraigulous/retina-background#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "laravel-elixir": "^6.0.0-9",
+    "laravel-elixir-webpack-official": "^1.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Retina Background Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style type="text/css">
+        div[data-background], div[data-background-2x] {
+            width: 100%;
+            background-size: cover !important;
+            background-position: center center;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1>Retina Background Demo</h1>
+        <p>Background images have been added to the following elements using data-background and data-background-2x attributes.</p>
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div data-background="http://placekitten.com/400/600" data-background-2x="http://placekitten.com/800/1200"></div>
+                </div>
+                <div class="col-xs-6">
+                    <div data-background="http://placekitten.com/800/1200" data-background-2x="http://placekitten.com/1600/2400"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<!-- Current doc JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js"></script>
+<script src="demo.build.js"></script>
+</body>
+</html>
