@@ -6,8 +6,6 @@
  * data-background-2x: URL to retina sized background image
  */
 
-const $ = require('jquery')
-
 class RetinaBackground {
 
     constructor(image) {
